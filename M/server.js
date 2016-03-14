@@ -1,4 +1,4 @@
-﻿// server.js 
+// server.js 
 
 /////////////////////////////////////////////////
 //----GROUP 1-----> Libraries                ////
@@ -50,6 +50,6 @@ var server = http.createServer(app);//---create the actual server
 //----GROUP  7-----> RUN THE SERVER           ////
 /////////////////////////////////////////////////
  
-var port = process.env.port || 1337;//---> for online purpose only
-//server.listen(3000); //---> for local purpose only 
-server.listen(port);     
+//var port = process.env.port || 1337;//---> for online purpose only
+server.listen(3000); //---> for local purpose only 
+//server.listen(port);     
