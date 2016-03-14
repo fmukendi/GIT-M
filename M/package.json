@@ -1,0 +1,14 @@
+{
+  "name": "M",
+  "version": "0.0.0",
+  "description": "M",
+  "main": "server.js",
+  "author": {
+    "name": "Franck",
+    "email": ""
+  },
+  "dependencies": {
+    "express": "^4.12.4",
+    "vash": "^0.8.7"
+  }
+}

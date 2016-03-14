@@ -1,0 +1,154 @@
+﻿@html.extend('layout_2_Church.vash',function(model){
+@html.block("body",function(model){
+
+<section class="row title-row">
+            <div  id="video-wallpaper-Church" >
+                
+                
+            </div>
+			<div>
+			<img class="img-responsive title-image" src="/images/site-logo-white-Jesus.png" alt="Rocky Mountain Outdoors Logo" />
+
+                <div class="down-button">
+                    <a id="aDownArrow" class="btn" href="#sights">
+                        <i class="fa fa-arrow-circle-down fa-4x"></i>
+                    </a>
+                </div>
+			</div>
+        </section>
+
+<section id="sights" class="row text-banner">
+    <h1>What is your Purpose in life ?</h1>
+    <p>If you're searching for your purpose, God has already written it in His Word. 
+	It's bigger than your occupation or the numbers on your paycheck. 
+	What is it? To go and make disciples of all the nations. How do you go about fulfilling it? Find out by comming to our church.
+         </p>
+</section>
+
+<section class="row">
+    <div class="fill-screen fixed-attachment" style="background-image: url(/images/Jesus_4.jpg)">
+    </div>
+</section>
+
+<section id="sports" class="row">
+    <div id="carousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel" data-slide-to="1"></li>
+            <li data-target="#carousel" data-slide-to="2"></li>
+        </ol>
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <img src="/images/photos/Jesus_1.jpg" alt="Jesus_1.jpg">
+                <div class="carousel-caption">
+                    <h3>Jesus_1.jpg</h3>
+                    <p>Our sub-title goes here</p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="/images/photos/Jesus_2.jpg" alt="Jesus_2.jpg">
+            </div>
+            <div class="item">
+                <img src="/images/photos/Jesus_3.jpg" alt="Jesus_3.jpg">
+            </div>
+        </div>
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+</section>
+
+<section id="activities" class="row activity-section">
+    <div class="activity-element col-md-4 wow fadeInLeft">
+        <img src="/images/map.png" />
+        <h2>Worship Jesus</h2>
+        <p>Mark 12:28-31  The Greatest Commandment</p>
+		<p>28 One of the teachers of the law came and heard them debating. 
+		Noticing that Jesus had given them a good answer, he asked him, “Of all the commandments, which is the most important?”
+29 “The most important one,” answered Jesus, “is this: ‘Hear, O Israel: The Lord our God, the Lord is one.
+[a] 30 Love the Lord your God with all your heart and with all your soul and with all your mind and with all your strength.’
+[b] 31 The second is this: ‘Love your neighbor as yourself.’[c] There is no commandment greater than these.”</p>
+    </div>
+    <div class="activity-element col-md-4 wow fadeInLeft">
+        <img src="/images/pic.png" />
+        <h2>Daily Life with Jesus </h2>
+        <p> Ephesians 6:10-20</p>
+		<p> The Whole Armor of God
+10 Finally, be strong in the Lord and in the strength of his might. 
+11 Put on the whole armor of God, that you may be able to stand against the schemes of the devil. 
+12 For we do not wrestle against flesh and blood, but against the rulers, against the authorities, against the cosmic powers over this present darkness, against the spiritual forces of evil in the heavenly places. 
+13 Therefore take up the whole armor of God, that you may be able to withstand in the evil day, and having done all, to stand firm. 
+14 Stand therefore, having fastened on the belt of truth, and having put on the breastplate of righteousness, 
+15 and, as shoes for your feet, having put on the readiness given by the gospel of peace. 
+16 In all circumstances take up the shield of faith, with which you can extinguish all the flaming darts of the evil one; 
+17 and take the helmet of salvation, and the sword of the Spirit, which is the word of God, 
+18 praying at all times in the Spirit, with all prayer and supplication. To that end keep alert with all perseverance, making supplication for all the saints, 
+19 and also for me, that words may be given to me in opening my mouth boldly to proclaim the mystery of the gospel, 
+20 for which I am an ambassador in chains, that I may declare it boldly, as I ought to speak.
+
+</p>
+
+
+    </div>
+    <div class="activity-element col-md-4 wow fadeInLeft">
+        <img src="/images/backpack.png" />
+        <h2>Give your Thithe and Donations ONLINE</h2>
+        <p>MALACHI,CHAPTER 3: 6 - 11 </p>
+		<p> Bring the whole tithe
+into the storehouse,
+That there may be food in my house.
+Put me to the test, says the LORD of hosts,
+And see if I do not open the floodgates of heaven for you,
+and pour down upon you blessing without measure! 
+       <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="62ZLXEX8M9FNU">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+
+      </p>
+    </div>
+</section>
+
+<section class="row">
+    <div class="fill-screen fixed-attachment" style="background-image: url(/images/Jesus_4.jpg)">
+    </div>
+</section>
+
+<section class="row">
+<div id="Gallery">
+    <a href="/images/photos/church1.jpg" data-ngthumb="/images/photos/church1.jpg">church1</a>
+    <a href="/images/photos/church2.jpg" data-ngthumb="/images/photos/church2.jpg">church2</a>
+    <a href="/images/photos/church3.jpg" data-ngthumb="/images/photos/church3.jpg">Landscape</a>
+    <a href="/images/photos/church4.jpg" data-ngthumb="/images/photos/church4.jpg">church4</a>
+    <a href="/images/photos/church5.jpg" data-ngthumb="/images/photos/church5.jpg">Icy Road Sign</a>
+    <a href="/images/photos/church6.jpg" data-ngthumb="/images/photos/church6.jpg">Rockies</a>
+    <a href="/images/photos/church7.jpg" data-ngthumb="/images/photos/church7.jpg">Scaling</a>
+</div>
+ </section>
+
+ <section class="row">
+    <div class="fill-screen fixed-attachment" style="background-image: url(/images/Jesus_4.jpg)">
+    </div>
+</section>
+
+
+<section id="contact-us" class="row contact-us wow fadeInDown">
+    <h1> It's time for you to surrender your life to JESUS!</h1>
+    <h3> Phone number : 404 552 4044</h3>
+    <p>Email address: muke.apps@gmail.com</p>
+	<p> address : 2770 campbellton rd sw, Atlanta 30311 </p>
+	<a href="https://www.google.com/maps/place/2770+Campbellton+Rd+SW,+Atlanta,+GA+30311/@33.700055,-84.478586,17z/data=!3m1!4b1!4m2!3m1!1s0x88f51d0a39282161:0x50319399d6b660d2">direction</a>
+</section>
+
+})
+})
